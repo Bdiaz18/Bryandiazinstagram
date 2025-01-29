@@ -1,0 +1,53 @@
+body {
+  font-family: 'Metal Mania', cursive;
+}
+.headpage{ 
+    overflow: hidden;
+    background: grey;
+    margin-bottom: 60px;
+}  
+h1 {
+  text-align: center;
+  color: black;
+}
+.MainContainer{
+  width: 650px;
+  margin: auto;
+}
+.Titles{
+  overflow: hidden;
+}
+.Titles > div {
+  width: 50%;
+  float: left;
+}
+article{
+	border: 1px solid #edeeee;
+	background: white;
+	margin-bottom: 60px;
+
+	border-radius: 3px;
+}
+article > header{
+	padding:0px 14px;
+}
+.Title-containers h2 {
+  font-size: 25px;
+}
+.Date-containers{
+  text-align: right;
+  color: blueviolet;
+}
+.Pictures{
+  border-top: 2px dotted grey;
+  border-bottom: 2px dotted grey;
+}
+.Comments{
+  padding: 0px 10px;
+}
+img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
